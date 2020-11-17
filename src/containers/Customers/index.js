@@ -76,7 +76,7 @@ const Customers = () => {
       <Button type="primary"
         icon={<PlusCircleOutlined />}
         size='large'
-        style={{ float: 'right', margin: '0 0 25px 0' }}
+        style={{ float: 'right', margin: '0 0 25px 0', backgroundColor: '#F71963', borderColor: '#F71963' }}
         onClick={addNewCustomerOnClickHandler}>
         Add A New Customer
       </Button>

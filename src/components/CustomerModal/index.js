@@ -142,7 +142,7 @@ const CustomerModal = ({ title, onSave, onCancel, visible, countries, isLoading,
                 <>
 
                   <Form.Item style={{ width: '100%' }}>
-                    <Button style={{ width: '100%', marginLeft: '30%' }} type="dashed" onClick={() => add()} icon={<PlusOutlined />}>
+                    <Button style={{ width: '100%', marginLeft: '30%', backgroundColor: '#F71963', borderColor: '#F71963', color: '#FFFFFF' }} type="dashed" onClick={() => add()} icon={<PlusOutlined />}>
                       Add Visits
                     </Button>
                   </Form.Item>
